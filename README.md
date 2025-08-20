@@ -13,8 +13,4 @@ pip install grad-cam captum wandb h5py gdown ipykernel ipywidgets
 pip install -U scikit-activeml
 python -m ipykernel install --user --name=thesis --display-name "thesis"
 conda deactivate
-```
-- ```top``` command used to monitor cpu usage in server.
 
-## Pre-Processing
-- As the datasets resolutions are different. CIFAR - 10 is resized to 96x96 to match with PCAM to train on the same model.
